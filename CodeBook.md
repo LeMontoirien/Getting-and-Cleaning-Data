@@ -1,8 +1,14 @@
 Code Book
+Source of the original data:
 
-(part of the coursera assessment for course "Getting and Cleaning Data")
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The tidied data set is contained within the file tidydata.txt. This can be easily read with R function read.table().
+Full Description at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Process
+
+The 
+The tidied data set is contained within the file tidydata.txt. It represents the mean and standard deviation of the observations from the original dataset.
 
 The dimension of the table are 
 
@@ -17,7 +23,7 @@ column structure
         either the mean value of the measured means
         or the mean value of the measured standard deviations
 
-The original measurements have these, hopefully descriptive enough, names:
+These are the original names for the description.
 
  [1] "tBodyAcc-mean()-X"           "tBodyAcc-mean()-Y"           "tBodyAcc-mean()-Z"          
  [4] "tBodyAcc-std()-X"            "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"           
