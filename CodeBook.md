@@ -7,7 +7,6 @@ Full Description at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Process
 
-The 
 The tidied data set is contained within the file tidydata.txt. It represents the mean and standard deviation of the observations from the original dataset.
 
 The dimension of the table are 
